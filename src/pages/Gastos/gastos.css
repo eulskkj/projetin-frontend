@@ -1,0 +1,82 @@
+.inicio-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(135deg, #df6c00, #ff2b00);
+  font-family: "Poppins", sans-serif;
+}
+.nav {
+  margin-bottom: 20px;
+  color: #fff;
+}
+.Link {
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+.gastos-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(10px);
+  padding: 40px 60px;
+  border-radius: 16px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+  transition: transform 0.2s ease;
+}
+
+.gastos-box:hover {
+  transform: scale(1.02);
+}
+
+.gastos-box h1 {
+  color: #a02727;
+  margin-bottom: 25px;
+  font-size: 2rem;
+}
+
+.gastos-box input {
+  margin: 10px 0;
+  padding: 10px 14px;
+  width: 240px;
+  border-radius: 8px;
+  border: none;
+  text-align: center;
+  outline: none;
+}
+
+.gastos-box button {
+  margin-top: 15px;
+  padding: 10px 20px;
+  background: linear-gradient(90deg, #63c032, #3fa1c6);
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: all 0.2s ease;
+}
+
+.gastos-box button:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
+}
+
+.gastos-box ul {
+  margin-top: 25px;
+  list-style: none;
+  padding: 0;
+  color: #fff;
+  width: 100%;
+}
+
+.gastos-box li {
+  background: rgba(255, 255, 255, 0.2);
+  margin: 8px 0;
+  padding: 10px;
+  border-radius: 8px;
+  text-align: center;
+}
